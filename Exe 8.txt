@@ -1,0 +1,91 @@
+<html>
+ <head>
+ <style>
+ .all {
+ border: 1px;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+ 
+ }
+ .button {
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+ background-color: #4CAF50;
+ 
+ 
+}
+ </style>
+ </head>
+ <body>
+ <h2 style="text-align: center;">Cricket Matches</h2>
+ <a class="button" href="https://www.w3schools.com/tags/tag_button.asp"
+>
+ <button class="button"> International Cricket</button> </a>
+ <button class="button"> T20 series</button>
+ <input type="button" class="button" value="Latest Tournaments"><br>
+ 
+ <div style="text-align: center;">
+ <button class="all" type="submit" value="All Matches">All Matches</b
+utton>
+ </div>
+ </body>
+</html>
+EX 9:
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+ border: none;
+ color: white;
+ padding: 16px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ transition-duration: 0.4s;
+ cursor: pointer;
+}
+.button1 {
+ background-color: white; 
+ color: black; 
+ border: 2px solid #4CAF50;
+}
+.button1:hover {
+ background-color: #4CAF50;
+ color: white;
+}
+.button2 {
+ background-color: white; 
+ color: black; 
+ border: 2px solid #008CBA;
+}
+.button2:hover {
+ background-color: #008CBA;
+ color: white;
+}
+</style>
+</head>
+<body>
+<h2>The button element - Styled with CSS</h2>
+<p>Use the :hover selector to change the style of the button when you move the 
+mouse over it.</p>
+<p><strong>Tip:</strong> Use the transition-duration property to determine the 
+speed of the "hover" effect:</p>
+<button class="button button1">Green</button>
+<button class="button button2">Blue</button>
+</body>
+</html>
